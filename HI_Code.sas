@@ -1,4 +1,4 @@
-PROC SURVEYSELECT DATA=public.claims_q345
+PROC SURVEYSELECT DATA=public.claims_abigail
                  OUT=public.ClaimsScore_1_Q1 (promote=yes)
                  METHOD=SRS
                  N=2000
