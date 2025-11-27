@@ -1,7 +1,7 @@
 PROC SURVEYSELECT DATA=public.claims_h1
                  OUT=public.ClaimsScore_1_Q1 (promote=yes)
                  METHOD=SRS
-                 N=2000
+                 N=3000
                  SEED=12345;
 RUN;
 
